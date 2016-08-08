@@ -1,0 +1,1 @@
+web: sh -c "cd /greg_dolder && gunicorn greg_dolder.wsgi"

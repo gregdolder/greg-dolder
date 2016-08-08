@@ -1,0 +1,41 @@
+/* main css */
+
+body {
+    background-color: #ddd;
+    font-size: 16px;
+
+}
+
+main {
+    margin: 0 auto;
+}
+
+section {
+    /*min-width: 400px;*/
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+img {
+    max-width: 90%;
+    border-radius: 220px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+project-address {
+    font-size: 1em;
+    font-weight: bold;
+    color: #eee;
+}
+
+project-description {
+    font-size: 12pt;
+
+}

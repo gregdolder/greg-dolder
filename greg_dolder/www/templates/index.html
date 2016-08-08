@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'normalize.css' %}"></link>
+        <link rel="stylesheet" href="{% static 'main.css' %}"></link>
+        <title>Greg Dolder - Director, Architect, Developer</title>
+    </head>
+    <body>
+        <h1>Recent Projects</h1>
+        <main>
+                {% for project in projects %}
+                    <section>
+                        <h2>{{ project.name }}</h2>
+                        <img src="{{ project.image }}"/>
+                        <p class="project-address">{{ project.address }}</p>
+                        <p class="project-description">{{ project.shortDescription }}</p>
+                    </section>
+                {% endfor %}
+        </main>
+    </body>
+</html>
